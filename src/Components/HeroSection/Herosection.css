@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+.section {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-color: black;
+  color: white ;
+  height: 600px;
+}
+
+.Image2 img{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.Herosection{
+    font-size: xx-large;
+    margin-left: 30px;
+}
+
+button{
+    color: black;
+    background-color: red;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: "Roboto Mono", monospace;
+}
+
+button:hover{
+    background-color: black;
+    color: black;
+    border: solid white;
+}
+
+@media screen and (max-width: 600px) {
+    .Image2 img{
+        width: 90%;
+    }
+
+    .section{
+        width: 100%;
+    }
+    .Herosection{
+        font-size: medium;
+    }
+
+}
